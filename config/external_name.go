@@ -11,6 +11,18 @@ import "github.com/upbound/upjet/pkg/config"
 var ExternalNameConfigs = map[string]config.ExternalName{
 	// Import requires using a randomly generated ID from provider: nl-2e21sda
 	"openstack_compute_instance_v2": config.IdentifierFromProvider,
+	// "openstack_compute_keypair_v2":  config.NameAsIdentifier,
+	// "openstack_compute_flavor_v2":       config.IdentifierFromProvider,
+
+	// "openstack_images_image_v2":       config.IdentifierFromProvider,
+
+	// "openstack_networking_network_v2":          config.IdentifierFromProvider,
+	// "openstack_networking_subnet_v2":           config.IdentifierFromProvider,
+	// // "openstack_networking_router_v2":           config.IdentifierFromProvider,
+	// // "openstack_networking_router_interface_v2": config.IdentifierFromProvider,
+	// "openstack_networking_floatingip_v2":       config.IdentifierFromProvider,
+	// "openstack_networking_secgroup_v2":       config.IdentifierFromProvider,
+	// "openstack_networking_secgroup_rule_v2":       config.IdentifierFromProvider,
 }
 
 // ExternalNameConfigurations applies all external name configs listed in the
