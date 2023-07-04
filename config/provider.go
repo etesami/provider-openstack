@@ -10,7 +10,7 @@ import (
 
 	ujconfig "github.com/upbound/upjet/pkg/config"
 
-	"github.com/etesami/provider-openstack/config/null"
+	"github.com/etesami/provider-openstack/config/compute"
 )
 
 const (
@@ -35,7 +35,7 @@ func GetProvider() *ujconfig.Provider {
 
 	for _, configure := range []func(provider *ujconfig.Provider){
 		// add custom config functions
-		null.Configure,
+		compute.Configure,
 	} {
 		configure(pc)
 	}
