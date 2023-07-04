@@ -11,7 +11,7 @@ export TERRAFORM_PROVIDER_REPO ?= https://github.com/terraform-provider-openstac
 export TERRAFORM_PROVIDER_VERSION ?= 1.52.1
 export TERRAFORM_PROVIDER_DOWNLOAD_NAME ?= terraform-provider-openstack
 export TERRAFORM_NATIVE_PROVIDER_BINARY ?= terraform-provider-openstack_v1.52.1
-export TERRAFORM_DOCS_PATH ?= website/docs/r
+export TERRAFORM_DOCS_PATH ?= docs/resources
 
 
 PLATFORMS ?= linux_amd64 linux_arm64
